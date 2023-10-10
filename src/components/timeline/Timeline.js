@@ -15,14 +15,14 @@ function Timeline() {
     {
       user: "__amupatil__",
       postImage:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRCIq1WFIqckI69eGZ67ugLdfxchy96eLR7w&usqp=CAU",
+        "https://www.w3schools.com/howto/img_5terre.jpg",
       likes: 122,
       timestamp: "1d",
     },
     {
       user: "ravina_",
       postImage:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqQMwq_mZ2I9qpXPhmIeJ5on2jZTavrF65Kw&usqp=CAU",
+        "https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_640.jpg",
       likes: 12,
       timestamp: "2h",
     },
@@ -42,7 +42,7 @@ function Timeline() {
             <Post
               user={post.user}
               postImage={post.postImage}
-              like={post.likes}
+              likes={post.likes}
               timestamp={post.timestamp}
             />
           ))}
